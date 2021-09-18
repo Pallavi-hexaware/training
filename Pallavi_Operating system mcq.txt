@@ -1,0 +1,74 @@
+Operating System MCQ Answers
+
+1. c.Oracle
+2. c.8
+5. a. .txt
+6. c.shell
+7. b.File allocation table
+8. a.By operating system
+9. a.Restarting computer
+10. c.The page does not present in memory
+11. c.To solve the deadlock
+12. Recycle bin
+13. Open-source operating system
+14. Distributed shared memory
+15. interface definition language
+16. Cold hot strap
+17. To memory protection
+18. Increases
+19. Ms-Dos
+20. Address bus
+21. Translation Lookaside Buffer miss
+22. MS-excel
+26. All of these
+27. System call
+30. Scheduler process
+32. Accessories
+33. Process Control
+34. Windows XP
+36. External commands
+37. Up to 8 characters
+39. All of the above
+
+
+
+Operating System MCQ2 Answers
+
+1.It is used to store folders and files hierarchically.
+2.Preemptive scheduling
+3.All of these.
+4.Windows is a GUI operating system.
+5.All of the these
+6.ALT + TAB
+7.EXE
+8.Network Scheduling
+10.Network OS
+11.Virtual memory
+12.Binary Semaphore
+13.C: \ Documents and settings
+14.Windows
+15.Indexed
+16.User and Computer
+17.Memory management scheme
+18.Operating system
+19.Incremental
+20.Stack directory structure
+21.Round-Robin scheduling
+22.SJF
+25.Contiguous
+26.Banker's algorithm
+27.Operating System information
+28.Swapping
+29.Temporary area
+30.Real-time OS
+31.ELF Binary Format
+
+
+
+
+
+
+
+
+
+

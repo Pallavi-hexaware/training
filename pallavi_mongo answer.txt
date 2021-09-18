@@ -1,0 +1,177 @@
+use practice
+switched to db practice
+> db.vendor.insert([{ven_id:1,Ven_name:"Pallavi",ven_number:8904894590,ven_username:"pall12",ven_password:"pal123",ven_email:"pallavishetty@gmail.com"}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.vendor.insert([{ven_id:1,Ven_name:"Sneha",ven_number:8904896780,ven_username:"sn12",ven_password:"snh123",ven_email:"sneha@gmail.com"}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.vendor.insert([{ven_id:1,Ven_name:"Richa",ven_number:8904867890,ven_username:"ri12",ven_password:"ric123",ven_email:"richa@gmail.com"}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.vendor.insert([{ven_id:1,Ven_name:"Kavya",ven_number:8890486789,ven_username:"ka12",ven_password:"kav23",ven_email:"kavya@gmail.com"}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.vendor.insert([{ven_id:1,Ven_name:"Deepa",ven_number:8890674589,ven_username:"de32",ven_password:"dee23",ven_email:"deepa@gmail.com"}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.Menu.insert([{menu_id:1,menu_item:"Burger",menu_price:150,menu_calories:120,menu_type:"sancks",menu_status:"available",menu_rating:5}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.Menu.insert([{menu_id:1,menu_item:"sandwitch",menu_price:250,menu_calories:120,menu_type:"fast food",menu_status:"available",menu_rating:4}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.Menu.insert([{menu_id:1,menu_item:"pizza",menu_price:350,menu_calories:190,menu_type:"fast food",menu_status:"available",menu_rating:5}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.Menu.insert([{menu_id:1,menu_item:"Friedrice",menu_price:150,menu_calories:100,menu_type:"fast food",menu_status:"available",menu_rating:4}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+> db.Menu.insert([{menu_id:1,menu_item:"samosa",menu_price:100,menu_calories:130,menu_type:"snacks",menu_status:"available",menu_rating:5}])
+BulkWriteResult({
+        "writeErrors" : [ ],
+        "writeConcernErrors" : [ ],
+        "nInserted" : 1,
+        "nUpserted" : 0,
+        "nMatched" : 0,
+        "nModified" : 0,
+        "nRemoved" : 0,
+        "upserted" : [ ]
+})
+
+3) Display all records from Menu by hiding _Id field
+Answe:- db.Menu.find({},{"_id":0}).pretty()
+
+4) Display all records from Vendor by hiding _id field
+Answer:- db.vendor.find({},{"_id":0}).pretty()
+
+5) Mongo Db RDBMS table called as 
+Answer:- Mongo Db RDBMS table called as Collections.
+
+6) Command to drop collection in Mongodb
+Answer:-command to drop collection in Mongodb is db.collection_name.drop()
+
+
+7) Command to drop database in mongodb
+Answer:-command to drop database in mongodb is db.dropDatabase()
+
+8) Write the syntax to insertMany records in Mongodb (for Menu Collection)
+Answer:-
+db.menu.insertMany([
+{menu_id:101,menu_item:"samosa",menu_price:45, menu_calories:100,menu_type:"snacks",Menu_status:"Available",menu_rating:4},
+{menu_id:102,menu_item:"sandwicth",menu_price:60, menu_calories:150,menu_type:"fast food",Menu_status:"Available",menu_rating:4},
+{menu_id:103,menu_item:"burger",menu_price:100, menu_calories:100,menu_type:"fast food",Menu_status:"Available",menu_rating:5}
+])
+
+9) Write command for Multiple Documents Insert
+Answer: db.collection_name.insertMany([])
+
+10) Display first 3 records in Menu table
+Answer:-db.menu.find().pretty().limit(3)
+
+11) Display all records from menu collection except first 3 records
+Answer:db.Menu.find().pretty().skip(3)
+
+12) Display vendor collection records sort by Ven_name
+Answer:- db.vendor.find().pretty().sort({ven_name:1})
+
+13) Give one example of findOne()
+Answer:-db.Vendor.findOne()
+
+14) Write command to display VendorName as ('swiggy','zomoto')
+Answer:- db.Vendor.find({"ven_name":{$in:["swiggy","zomoto"]}}).pretty()
+
+15) Write command as display vendorName not as 'swiggy' or 'zomoto'
+Answer:- db.Vendor.find({"ven_name":{$nin:["swiggy","zomoto"]}}).pretty()
+
+
+16)Write command as display Menu_Type is 'VEG' and Price > 100
+Answer:-db.menu.find({$and:[{"menu_type":{$in:["VEG"]}},{"price":{$gt:100}}]})
+
+17) Write command as display Menu_Type is 'VEG' or Price < 100
+Answer:-db.menu.find({$or:[{"menu_type":{$in:["VEG"]}},{"price":{$lt:100}}]})
+
+18) Update Menu_Price as 200 for Menu_ID 2
+
+Answer:- db.Menu.update({menu_id:2},{$set:{menu_price:200}})
+
+19) Update Vendor_Address as 'CHENNAI' for Vendor_ID 3
+Answer:-db.Vendor.update({ven_id:3},{$set:{ven_address:"Chennai"}})
+
+20) Remove record from menu whose Menu_ID is 11
+db.Menu.remove({"menu_id":11})
+
+21) Remove record from Menu whose Vendor_Name is 'aarifa'
+Answer:-db.Menu.remove({"ven_name":"aarifa"})

@@ -1,0 +1,95 @@
+Agile
+
+1) What is difference between Sprint Meeting and Spring Retrospective Meeting
+In sprint meeting team select iteams from the product backlog that they can commit in the current sprint, then the sprint catalog will be created.
+In spring retrospective meeting team check the way they worked together in the sprint and identifies positive ways of working as team.
+
+2) What is BurnDown Chart
+shows what is remaining in sprint w.r.t day by day. 
+
+3) Sprint Meeting to be happen for min how many weeks
+sprint meeting should be 2hrs for each week of the sprint.
+
+4) who is responsible for product backlog
+Product Owner
+
+5) Who is responsible for Sprint Backlog
+Scrum master, product owner and devvelopment team member
+
+6) Can we change sprint in the middle
+No
+
+7) What are objectives of Daily Standup meeting
+-What I did yesterday
+-what i will do today
+-any change in the work
+
+8) What is objective of Sprint Backlog
+-Is an arifact of the sprint planning meeting
+-the cross functional team select any one of requirement from product backlog& commited to deliver within the sprint iteration
+
+9) When the sprint execution completed 
+starts after spring planning and ends before the sprint review
+
+10) Is Scrum has role as Project Manager
+No
+
+11) When the retrospective meeting to be held
+end of each sprint meeting
+
+12) Who is responsible for Product Catalog
+Product Owner
+
+13) Goals of Scrum 
+manage complexity and change through visibility, Inspection and adoption
+
+14) What actually Product Backlog Contains 
+all the requirement and items are catured in product catalog
+
+15) What is main characterstsics of Spring Backlog
+-once sprint started,don't add new requirements in current sprint
+-don't change the end date of sprint
+
+16) Role of Scrum Master 
+keeps the team to focus on the goal w.r.t end date
+
+17) Agile Projects Progress can be measured in 
+Sprint cycle
+
+18) What will happen in Sprint 
+Product design, code and test, typical duration is from 2 to 4 weeks, but it can't cross calender month
+
+19) At the end of Sprint 
+conduct sprint review meeting, followed by sprint retrospective meeting.
+
+20) Sprint Backlog will be created at
+Sprint planning, its not done alone by scrum master can be done by collaboratively with team.
+
+21) How the Burndown/up chart helps
+-how much amount of work remaining in sprint
+-isall priorities met or not
+-what priority work pending in sprint 
+
+22) In Spring for every 24 hrs
+Team needs to demonstrate on new requirements
+
+21) What Sprint backlog contains
+Committed Functionality
+
+22) Who will terminate sprint (extreme cases)
+product Owner
+
+23) What is BurnDown Chart 
+shows what is remaining in sprint w.r.t day by day. 
+
+24) What is Velocity 
+Amount of work a team can finish during the time period.
+
+
+                  
+
+
+
+
+
+
